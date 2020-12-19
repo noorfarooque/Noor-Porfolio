@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+
+    primary-color:#EF4444;
+}
+
+/* Container */
+
+.container{
+    padding-left:1rem;
+    paddgin-right:1rem;
+}
+
+.container-center{
+    max-width:600px;
+    margin:auto;
+}
+
+hr{
+    margin-top:1rem;
+    margin-bottom:1rem; 
+    visibility: hidden;
+}
+
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+    
+}
+
+.link-primary{
+    background-color:#6D28D9;
+    color:white;
+    border-radius:0.5rem;
+    margin:5px;
+}
+
+.link-secondary{
+    border:1px solid #6D28D9;
+    //color:white;
+    border-radius:0.5rem;
+    margin:5px;
+}
+
+/* style of list*/
+
+.non-bullet{
+
+    list-style:none;
+}
+
+.inline-bullet{
+    display:inline;
+    padding:1rem;
+}
+
+.navigation{
+
+    background-color:#DB2777;
+    padding:1rem;
+    border-bottom-left-radius:1rem;
+    display:block;
+    /*max-width:600px;
+    margin:auto;*/
+   
+}
+
+.navigation .nav-bills{
+    font-weight:bold;
+    
+}
+
+
+.navigation .navbrands{
+    text-align:right;
+    
+
+
+}
+
+.navigation .link{
+    color:black;
+    
+}
+
+.navigation .link-active{
+    font-weight:bold;
+}
+
+
+.header .container .container-center{
+    line-height:1.5 em;
+    text-align:center;
+    margin:auto;
+    display:block;
+    max-width:700px;
+    box-sizing: border-box;
+}
+
+.header-img{
+
+    max-width:500px;
+    display:block;
+    margin:auto;
+
+}
+
+.header h2{
+    text-align:center;
+}
+
+}
+
+.white-section .container-center{
+    padding:5rem;
+    margin:5px;
+    text-align:justify;
+    max-width:600px;
+    display:block;
+    margin:auto;
+}
+
+.white-section a{
+    padding-top:2px;
+    margin:auto;
+    
+}
+
+.offwhite-section{
+
+    padding:1rem;
+    text-align:justify;
+    background-color:#C4B5FD;
+    border-radius:15px;
+    max-width:600px;
+    display:block;
+    margin:auto;
+}
+
+.offwhite-section a{
+    padding-top:2px;
+    margin:auto;
+}
+
+
+
+
+.footer{
+    padding:10px;
+    margin:3px;
+    background-color:#DB2777;
+    border-top-right-radius:1rem;
+    display:block;
+    /*max-width:600px;
+    margin:auto;*/
+}
+
+.footer h2{
+    text-align: center;
+}
+.footer .non-bullet .inline-bullet{
+    padding:5px;
+    margin:2px;
+    
+    
+}
+.footer .link{
+    color:black;
+    font-size:medium;
+    font-weight:bold;
+    
+}
+
+/* Blogs Styling */
+
+.content p{
+    text-align:justify;
+}
+
+.content a{
+    text-decoration:none;
+    margin:5px;
+    padding:5px;
+    border:2px solid ;
+    border-radius:5px;
+}
+
+  
+
+
+
+
+
+
